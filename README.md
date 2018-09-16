@@ -48,4 +48,16 @@ import { ViewEncapsulation } from '@angular/core';
   styleUrls: ['./app.component.css'],
   encapsulation: ViewEncapsulation.Native
 })
+
 ```
+
+## Ejecutar
+ng serve
+
+Esto nos permitira verificar la aplicación en http://localhost:4200
+
+
+# Continuar con el siguiente paso
+https://github.com/navickator/WC-NG6/tree/step/1
+
+> git checkout step/1
