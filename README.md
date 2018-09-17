@@ -1,19 +1,27 @@
 # WC-NG6
 Create a WebComponent with Angular6
 
-# PASO 1
 
-```javascript
-
-```
-
-## Ejecutar
-ng serve
-
-Esto nos permitira verificar la aplicación en http://localhost:4200
+En este punto ya debemos tener la aplicación corriendo, un leve resumen de la architecruta es el siguiente
 
 
-# Continuar con el siguiente paso
-https://github.com/navickator/WC-NG6/tree/step/2
+          |=================================|
+          | PORTAL http://localhost:9092/   |
+          |=================================|
+                          | |
+                          | |
+                          \ /
+          |=================================|
+          | CARD http://localhost:9090/     |<---------------------------
+          |=================================|                           |
+                          | |                                           |
+                          | |                                           |
+                          \ /                                           |
+          |=================================|           |=================================|
+          | ICON http://localhost:9091/     |<--------- | GENOME http://localhost:8080/   |
+          |=================================|           |=================================|
 
-> git checkout step/2
+
+Comentarios o dudas pueden escribirme por slack o skype.
+
+Saludo.
