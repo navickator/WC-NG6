@@ -48,13 +48,22 @@ Modificación del archivo app.component.html
 ```
 
 Modificación de la hoja de estilos para referenciar a genome
+## Iniciar servidor http
+Para poder acceder al contenido de la hoja de estilos de genome subiremos un servidor web en el puerto 8080
+
+```
+> http-server --cors -p 8080 genome 
+
+```
+
 ```css
 @import url("http://localhost:8080/genome/bizagi-genome-genome.min.css");
 ```
 
 ## Ejecutar
+```
 ng serve
-
+```
 Esto nos permitira verificar la aplicación en http://localhost:4200
 
 
