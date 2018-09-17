@@ -4,8 +4,9 @@ Create a WebComponent with Angular6
 Ahora que tenemos un componente basico de Cards, vamos a permitir que se puedan asignar valores al titulo y subtitulo por medio de atributos del DOM, asi mismo convertir el DOM en shadow dom
 
 ## Instalación de los polyfills
+```
 ng add @angular/elements
-
+```
 
 # PASO 1
 Modificar el archivo app.module.ts para registrar la creación del custom element
@@ -46,7 +47,9 @@ Debido a que en este punto tenemos el custom element con shadow dom, es necesari
 
 
 ## Ejecutar
+```
 ng serve
+```
 
 Esto nos permitira verificar la aplicación en http://localhost:4200
 
