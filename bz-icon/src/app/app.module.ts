@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Injector, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule, Injector } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 
 import { AppComponent } from './app.component';
@@ -11,17 +11,15 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],  
-  entryComponents: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  providers: [],
+  entryComponents: [AppComponent]
 })
 export class AppModule { 
   constructor(private injector: Injector) {
-    const cards = createCustomElement(AppComponent,{ injector: this.injector });
-    customElements.define("bz-card", cards);
+    const icon = createCustomElement(AppComponent,{ injector: this.injector });
+    customElements.define("bz-icon", icon);
    }
- 
-  //Define NG Bootstrap
+   //Define NG Bootstrap
   ngDoBootstrap(){
    
   }

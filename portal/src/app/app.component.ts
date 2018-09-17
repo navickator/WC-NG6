@@ -11,8 +11,7 @@ export class AppComponent {
 
   config = {
     "bz-card": {
-      path: 'http://localhost:9090/index.html',
-      element: 'bz-card'
+      path: 'http://localhost:9090/index.html'
     }
   };
 
