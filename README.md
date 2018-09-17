@@ -10,9 +10,6 @@ npm i -g @angular/cli
 
 ng new bz-card --prefix custom
 
-## Instalación de los polyfills
-ng add @angular/elements
-
 
 ## Ejecutar
 ng serve
