@@ -4,8 +4,9 @@ Create a WebComponent with Angular6
 Ahora que tenemos nuestro web component bz-card funcionando, vamos a importarlo en un portal para ver su integración
 # PASO 1
 Crear un nuevo proyecto llamado portal
-
-*ng new portal*
+```
+ng new portal
+```
 
 # PASO 2
 En el archivo app.module.ts del portal adicionar el schema para que soporte custom elements externos
@@ -77,7 +78,9 @@ Ahora debemos servir el webcomponent bz-card en una url que el portal pueda acce
 ```
 
 ## Ejecutar
+```
 ng serve
+```
 
 Esto nos permitira verificar la aplicación en http://localhost:4200
 
